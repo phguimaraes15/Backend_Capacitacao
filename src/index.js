@@ -10,5 +10,5 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/portifolio', Portifolio);
 
-console.log('Servidor rodando no link http://localhost:${port}');
+console.log(`Servidor rodando no link http://localhost:${port}`);
 app.listen(port);
