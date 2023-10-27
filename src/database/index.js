@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb://localhost/portifolio-pessoal', {
+mongoose.connect('mongodb://127.0.0.1/portifolio-pessoal', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
